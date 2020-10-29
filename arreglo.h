@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Arreglo
+class ArregloDinamico
 {
   string *arreglo;
   size_t tam;
@@ -13,8 +13,8 @@ class Arreglo
   const static size_t MAX = 5;
 
 public:
-  Arreglo();
-  ~Arreglo();
+  ArregloDinamico();
+  ~ArregloDinamico();
   void insertar_inicio(const string &s);
   void insertar_final(const string &s);
   size_t size();

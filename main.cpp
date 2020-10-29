@@ -2,7 +2,7 @@
 #include "arreglo.h"
 
 int main() {
-  Arreglo arreglo;
+  ArregloDinamico arreglo;
   
   arreglo.insertar_final("Dark Souls");
   arreglo.insertar_final("Pokemon");
